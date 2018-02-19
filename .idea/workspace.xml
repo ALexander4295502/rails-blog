@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13755ead-1375-45da-b765-4e86ae29a24f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/comments/edit.html.erb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -20,81 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/post.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20180219193540_create_join_table_users_forums.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20180219193540_create_join_table_users_forums.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="magazine.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/magazine.rb">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forum.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/forum.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20180219194114_create_forums.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20180219194114_create_forums.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,11 +56,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20180219201937_create_subscriptions.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="20180219201937_create_subscriptions.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20180219201937_create_subscriptions.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20180219203754_create_profiles.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20180219203754_create_profiles.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_comment.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -130,6 +136,7 @@
       <find>First post</find>
       <find>get '</find>
       <find>path</find>
+      <find>/posts/:post_id</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/config</dir>
@@ -142,7 +149,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
@@ -153,15 +159,21 @@
         <option value="$PROJECT_DIR$/app/views/pages/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180219192613_add_post_to_comments.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180219193540_create_join_table_users_forums.rb" />
         <option value="$PROJECT_DIR$/app/models/forum.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/magazine.rb" />
         <option value="$PROJECT_DIR$/app/models/subscription.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180219201937_create_subscriptions.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/comments/_comment.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/comments/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
       </list>
     </option>
   </component>
@@ -220,12 +232,6 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,7 +239,7 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="comments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +274,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="create_sub&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/db/migrate/20180219201937_create_subscriptions.rb&#10;SUbs&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/subscription.rb&#10;mag&#9;null&#9;null&#10;user&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/user.rb&#10;sub&#9;null&#9;null&#10;foru&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/db/migrate/20180219194114_create_forums.rb&#10;forum&#9;null&#9;null&#10;create&#9;null&#9;null&#10;ADD&#9;null&#9;null&#10;comment&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/comment.rb&#10;post&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/post.rb&#10;add&#9;null&#9;null&#10;Pos&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/post.rb&#10;route&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/config/routes.rb&#10;pa&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;ro&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/config/routes.rb&#10;show&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/show.html.erb&#10;contro&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;inde&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/index.html.erb&#10;contr&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;edit&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/edit.html.erb&#10;new&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/new.html.erb&#10;page&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;pagecon&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;index&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/index.html.erb&#10;routes&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/config/routes.rb&#10;controll&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;cont&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;pages&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;pagesco&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;migrate&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/db/migrate&#10;Page&#9;null&#9;null&#10;postcont&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/posts_controller.rb&#10;Post&#9;null&#9;null&#10;postcontr&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/posts_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="commen&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/comments_controller.rb&#10;comment&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/comments_controller.rb&#10;control&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/comments_controller.rb&#10;_for&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/comments/_form.html.erb&#10;show&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/posts/show.html.erb&#10;route&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/config/routes.rb&#10;create_&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/db/migrate/20180219203754_create_profiles.rb&#10;User&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/user.rb&#10;create_sub&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/db/migrate/20180219201937_create_subscriptions.rb&#10;SUbs&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/subscription.rb&#10;mag&#9;null&#9;null&#10;user&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/user.rb&#10;sub&#9;null&#9;null&#10;foru&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/db/migrate/20180219194114_create_forums.rb&#10;forum&#9;null&#9;null&#10;create&#9;null&#9;null&#10;ADD&#9;null&#9;null&#10;post&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/post.rb&#10;add&#9;null&#9;null&#10;Pos&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/models/post.rb&#10;pa&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;ro&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/config/routes.rb&#10;contro&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;inde&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/index.html.erb&#10;contr&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;edit&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/edit.html.erb&#10;new&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/new.html.erb&#10;page&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;pagecon&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;index&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/views/pages/index.html.erb&#10;routes&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/config/routes.rb&#10;controll&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;cont&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;pages&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;pagesco&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/pages_controller.rb&#10;migrate&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/db/migrate&#10;Page&#9;null&#9;null&#10;postcont&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/posts_controller.rb&#10;Post&#9;null&#9;null&#10;postcontr&#9;FILE&#9;file:///Users/zheng/Documents/Web/Ruby/Rails/blog/app/controllers/posts_controller.rb" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -407,12 +413,12 @@
       <updated>1518827223810</updated>
       <workItem from="1518827225199" duration="3551000" />
       <workItem from="1518831498582" duration="6620000" />
-      <workItem from="1519013875590" duration="2508000" />
+      <workItem from="1519013875590" duration="4706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12679000" />
+    <option name="totallyTimeSpent" value="14877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,42 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180216064637_create_posts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180217010314_add_body_to_posts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -645,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -745,14 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180219042547_add_post_to_comments.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -809,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/magazine.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -837,6 +784,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180219203754_create_profiles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
